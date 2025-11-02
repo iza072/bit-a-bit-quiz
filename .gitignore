@@ -1,0 +1,17 @@
+# Arquivos e pastas de cache do Python e do ambiente
+__pycache__/
+*.pyc
+*.pyd
+*.so
+.env
+
+# Ambiente Virtual
+venv/
+.venv/
+
+# Banco de Dados
+db.sqlite3
+
+# Arquivos de mídia e estáticos em produção
+/media/
+/staticfiles/
