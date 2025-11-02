@@ -77,6 +77,6 @@ function enviarCadastro(event) {
     .catch(error => {
         
         console.error('Erro de conexão:', error);
-        alert('🚨 Falha ao conectar. Verifique se o servidor está rodando (python manage.py runserver).');
+        alert('🚨 Falha ao conectar. Verifique se o servidor está rodando.');
     });
 }

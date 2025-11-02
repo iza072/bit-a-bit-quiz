@@ -39,7 +39,7 @@ if settings.GEMINI_API_KEY and genai:
         print(f"Erro ao inicializar o cliente Gemini: {e}")
 
 
-# 1- prioridade (usuario) se nao da erro CHATBOT API (RESTRITO A ASSINANTES)
+# prioridade (usuario) se nao da erro CHATBOT API (RESTRITO A ASSINANTES)
 
 @require_POST
 @login_required
@@ -51,7 +51,7 @@ def chatbot_responder(request):
     if gemini_client is None: 
         return JsonResponse({'error': 'Serviço de IA temporariamente indisponível.'}, status=503)
 
-    # 1- CHECAGEM DE ASSINATURA (RESTRIÇÃO DE ACESSO)
+    # CHECAGEM DE ASSINATURA (RESTRIÇÃO DE ACESSO)
     try:
         if not request.user.perfil.is_assinante:
             return JsonResponse({
@@ -62,7 +62,7 @@ def chatbot_responder(request):
             'error': 'Erro no perfil do usuário. Acesso negado.'
         }, status=403)
         
-    # 2 -Processamento da Pergunta
+    # Processamento da Pergunta
     try:
         data = json.loads(request.body)
         pergunta = data.get('pergunta', '').strip()
@@ -72,7 +72,7 @@ def chatbot_responder(request):
     if not pergunta:
         return JsonResponse({'resposta': 'Por favor, digite sua pergunta sobre T.I. ou a plataforma.'})
 
-    # 3 -interaçao com a api do Gemini
+    # interaçao com a api do Gemini
     try:
         system_instruction = (
             "Você é o BitBot, um assistente de inteligência artificial focado em Tecnologia da Informação. "
@@ -98,7 +98,7 @@ def chatbot_responder(request):
 
 
 
-# 1- VIEWS DE TEMPLATE (Renderizam HTML)
+#  VIEWS DE TEMPLATE (Renderizam HTML)
 @login_required 
 def pagina_perguntas_facil(request):
     return render(request, 'perguntas/facil.html')
@@ -122,7 +122,7 @@ def pagina_chatbot_premium(request):
     Renderiza a página dedicada do Chatbot Premium.
     Bloqueia o acesso de não-assinantes aqui no Django.
     """
-    # 1. Checagem de Assinatura
+    # Checagem de Assinatura
     is_assinante = False
     try:
         if request.user.perfil.is_assinante:
@@ -138,7 +138,7 @@ def pagina_chatbot_premium(request):
     return render(request, 'chatbot.html') 
 
 
-# 2. VIEWS DA API (JSON)
+#  VIEWS DA API (JSON)
 @api_view(['POST']) 
 @login_required 
 def salvar_pontuacao_final(request):
@@ -258,7 +258,7 @@ def obter_ranking_top10(request):
     return Response(data, status=status.HTTP_200_OK)
 
 
-# 3. VIEW DE GERAÇÃO DE PERGUNTAS (IA)
+#  VIEW DE GERAÇÃO DE PERGUNTAS (IA)
 
 @api_view(['GET'])
 @login_required 
