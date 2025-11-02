@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import get_user_model # modelo de usuário ativo no projeto
 User = get_user_model()
 
-# Opções de Dificuldade
+# Opções de Dificuldade do quiz
 DIFICULDADE_CHOICES = (
     ('F', 'Fácil'),
     ('M', 'Médio'),

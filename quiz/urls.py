@@ -2,9 +2,9 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    # ----------------------------------------------------
+   
     # ROTAS DE TEMPLATE (PÁGINAS HTML)
-    # ----------------------------------------------------
+    
     path('quiz/facil/', views.pagina_perguntas_facil, name='perguntas_facil'),
     path('quiz/media/', views.pagina_perguntas_media, name='perguntas_media'),
     path('quiz/dificil/', views.pagina_perguntas_dificil, name='perguntas_dificil'),

@@ -72,7 +72,7 @@ def chatbot_responder(request):
     if not pergunta:
         return JsonResponse({'resposta': 'Por favor, digite sua pergunta sobre T.I. ou a plataforma.'})
 
-    # 3 -interaçao com Gemini
+    # 3 -interaçao com a api do Gemini
     try:
         system_instruction = (
             "Você é o BitBot, um assistente de inteligência artificial focado em Tecnologia da Informação. "
@@ -258,7 +258,7 @@ def obter_ranking_top10(request):
     return Response(data, status=status.HTTP_200_OK)
 
 
-# 3. VIEW DE GERAÇÃO DE PERGUNTAS (IA/gemini)
+# 3. VIEW DE GERAÇÃO DE PERGUNTAS (IA)
 
 @api_view(['GET'])
 @login_required 

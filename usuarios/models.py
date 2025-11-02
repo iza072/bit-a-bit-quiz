@@ -16,7 +16,7 @@ class Perfil(models.Model):
     pontuacao_total = models.IntegerField(default=0)
     
     #  CAMPO DE FOTO DE PERFIL 
-    # 'fotos_perfil/' é o subdiretório dentro de MEDIA_ROOT
+    # 'fotos_perfil/' e o subdiretório dentro de MEDIA_ROOT
     foto_perfil = models.ImageField(
         upload_to='fotos_perfil/', 
         null=True, 
