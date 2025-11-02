@@ -9,10 +9,11 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
-#IMPORTS
+# IMPORTS
 import os
 from pathlib import Path
-import dj_database_url # para transferencia do banco de dados
+from datetime import timedelta 
+import dj_database_url # IMPORTAÇAO PARA BANCO DE DADOS(DB)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,17 +24,60 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-(rnb*pi^t^jfms1k)nj8j$mb=+4p1_oo-f!y@lqy$4d4yyyp6b'
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 
+# CONFIGURAÇÃO PARA DOIS AMBIENTES (LOCAL E DE PRODUÇÃO) 
+
+
+# Verifica a variavel de ambiente IS_PRODUCTION. SE NAO FOR LOCAR= FALSE
+IS_PRODUCTION = os.environ.get('IS_PRODUCTION', 'False') == 'True' 
+
+if IS_PRODUCTION:
+    # Configurações de produçao(PythonAnywhere)
+    DEBUG = False
+    ALLOWED_HOSTS = ['iza72.pythonanywhere.com'] #servidor
+    
+    # CHAVE DESATIVADA: O PythonAnywhere bloqueia nossa chave
+    # Desativar a chave para permiter o registro de usuarios
+    GEMINI_API_KEY = None 
+    
+    CORS_ALLOWED_ORIGINS = [
+        "https://iza72.pythonanywhere.com",
+    ]
+else:
+    # Configurações de IDLE (Local e Code)
+    DEBUG = True
+    # Permite acesso de localhost e outras portas locais
+    ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+    
+    #chave  do Gemini, ativa em desenvolvimento para QUIZ e BOT
+    GEMINI_API_KEY = 'AIzaSyAWTerGbvZiWdqLdVdN8HwgZXxsXOZ-h9A' 
+    
+    CORS_ALLOWED_ORIGINS = [
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+        "http://localhost:5500", 
+    ]
+    
 # Application definition
 
- 
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'rest_framework',
+    'rest_framework_simplejwt',
+    'corsheaders',
 
-MIDDLEWARE = [  
+    # Apps criados no momento
+    'usuarios',
+    'quiz',
+]
+
+MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -46,33 +90,14 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'backend_api.urls'
 
+WSGI_APPLICATION = 'backend_api.wsgi.application'
 
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'rest_framework',
-    'rest_framework_simplejwt',
-    'corsheaders', 
-    
-    # Apps criados no momento 
-    'usuarios',
-    'quiz',
-]
+# ARQUIVOS ESTATICOS (HTML) e Templates
 
-# chave da api do gemini
-GEMINI_API_KEY = 'AIzaSyAWTerGbvZiWdqLdVdN8HwgZXxsXOZ-h9A'
-
-#arquivos estaticos  (html)
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        
-        'DIRS': [BASE_DIR / 'templates'], 
-        
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -85,113 +110,69 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend_api.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',     #banco de dados
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
-
-# Password validation
-# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
-
-#aplicações para login/registro
-AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
-]
-
-
-# Internationalization
-# https://docs.djangoproject.com/en/5.2/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
-USE_TZ = True
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.2/howto/static-files/
-
-STATIC_URL = 'static/'    
+# STATIC FILES
+STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / 'static', 
-
-  
+    BASE_DIR / 'static',
 ]
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
+# Local onde os arquivos serão coletados pelo collectstatic
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8000",
-    "http://127.0.0.1:8000",
-    "http://localhost:5500", 
-]
-from datetime import timedelta
-
-SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60), 
-    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),    
-}
- # Antigo para servidor local
-#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_collected')
-
-# Novo STATIC_ROOT: O local onde os arquivos  serão coletados pelo collectstatic
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') 
-
-#  caminho completo para o gerenciamento de arquivos de mídia (upload de fotos)
+# Gerenciamento de arquivos de midia (upload de fotos)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
-# CONFIGURAÇAO ENVIO DE EMAIL 
+# Autenticaçao e Segurança
 
-# Email do nosso suporte 
-DEFAULT_FROM_EMAIL = 'suporte@bitabit.com'
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
+}
 
- #redireciona o usuario pos login 
+# Password validation 
+AUTH_PASSWORD_VALIDATORS = [
+    { 'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator', },
+    { 'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator', },
+    { 'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator', },
+    { 'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator', },
+]
+
+
+# Internationalization
+
+TIME_ZONE = 'UTC'
+USE_I18N = True
+USE_TZ = True
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# CONFIGURAÇÃO DE EMAIL e REDIRECIONAMENTO
+
+DEFAULT_FROM_EMAIL = 'suporte@bitabit.com' #MUDAR
 LOGIN_REDIRECT_URL = '/principal/'
+LOGOUT_REDIRECT_URL = '/login/'
 
-LOGOUT_REDIRECT_URL = '/login/' 
 
-ALLOWED_HOSTS = ['*'] # Permite o acesso de outros dominios 
+# DATABASE E DEPLOYMENT
 
-#SUBINDO SITE PARA O SERVIDOR/ IMPORTAÇOES DE DADOS 
+
+# SUBINDO SITE PARA O SERVIDOR/ IMPORTAÇÕES DE DADOS
+
 DATABASE_URL = os.environ.get("DATABASE_URL")
 
 if DATABASE_URL:
+    # Importação movida para dentro do bloco IF
+    import dj_database_url
     DATABASES = {
         "default": dj_database_url.config(default=DATABASE_URL, conn_max_age=600)
     }
 else:
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.sqlite3', 
+            'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
