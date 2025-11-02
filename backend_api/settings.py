@@ -170,8 +170,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 # CONFIGURAÇAO ENVIO DE EMAIL 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
-
 
 # Email do nosso suporte 
 DEFAULT_FROM_EMAIL = 'suporte@bitabit.com'
