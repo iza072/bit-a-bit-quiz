@@ -1,4 +1,4 @@
-const API_CADASTRO_URL = 'http://localhost:8000/cadastro/';
+const API_CADASTRO_URL = 'https://bit-a-bit-quiz.onrender.com/cadastro/'; // <--- Corriginfo erro de cadastro no render 
 
 // tudo em DOMContentLoaded para garantir que os elementos existem na funçao/ usuarios
 document.addEventListener('DOMContentLoaded', function() {

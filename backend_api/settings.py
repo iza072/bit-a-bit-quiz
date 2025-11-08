@@ -60,6 +60,7 @@ else:
 # Application definition
 
 INSTALLED_APPS = [
+    'usuarios',#mudando para cima
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -69,10 +70,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
-
-    # Apps criados no momento
-    'usuarios',
-    'quiz',
+    'quiz', #instalado
 ]
 
 MIDDLEWARE = [
@@ -174,7 +172,6 @@ CSRF_TRUSTED_ORIGINS = [
 
 
 # SUBINDO SITE PARA O SERVIDOR/ IMPORTAÇÕES DE DADOS
-
 DATABASE_URL = os.environ.get("DATABASE_URL")
 
 if DATABASE_URL:
