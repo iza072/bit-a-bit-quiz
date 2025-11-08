@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 import os
 from pathlib import Path
 from datetime import timedelta 
-import dj_database_url # IMPORTAÇAO PARA BANCO DE DADOS(DB)
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -28,18 +28,16 @@ SECRET_KEY = 'django-insecure-(rnb*pi^t^jfms1k)nj8j$mb=+4p1_oo-f!y@lqy$4d4yyyp6b
 
 # CONFIGURAÇÃO PARA DOIS AMBIENTES (LOCAL E DE PRODUÇÃO) 
 
-
 # Verifica a variavel de ambiente IS_PRODUCTION. SE NAO FOR LOCAR= FALSE
 IS_PRODUCTION = os.environ.get('IS_PRODUCTION', 'False') == 'True' 
 
 if IS_PRODUCTION:
     # Configurações de produçao(PythonAnywhere)
     DEBUG = False
-    ALLOWED_HOSTS = ['iza72.pythonanywhere.com'] #servidor
+    ALLOWED_HOSTS = ['iza72.pythonanywhere.com']
     
-    # CHAVE DESATIVADA: O PythonAnywhere bloqueia nossa chave
-    # Desativar a chave para permiter o registro de usuarios
-    GEMINI_API_KEY = None 
+    # CHAVE : PROVAVEL PROBLEMA NO PythonAnywhere
+    GEMINI_API_KEY = 'AIzaSyAWTerGbvZiWdqLdVdN8HwgZXxsXOZ-h9A' 
     
     CORS_ALLOWED_ORIGINS = [
         "https://iza72.pythonanywhere.com",
@@ -149,14 +147,26 @@ USE_TZ = True
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# CONFIGURAÇÃO DE EMAIL e REDIRECIONAMENTO
-
-DEFAULT_FROM_EMAIL = 'suporte@bitabit.com' #MUDAR
+# CONFIGURAÇÃO DE EMAIL e REDIRECIONAMENTO 
+DEFAULT_FROM_EMAIL = 'suportebitabit1@gmail.com'
 LOGIN_REDIRECT_URL = '/principal/'
 LOGOUT_REDIRECT_URL = '/login/'
 
 
-# DATABASE E DEPLOYMENT
+# CONFIGURAÇÃO DE SERVIDORES (ALLOWED_HOSTS FINAL)
+ALLOWED_HOSTS = [
+    '127.0.0.1', # Permite rodar localmente
+    'localhost',
+    'iza72.pythonanywhere.com', # DomInio PythonAnywhere
+    'bit-a-bit-quiz.onrender.com', # Dominio  do Render
+    '*.onrender.com', # Permite todos os subdomínios do Render
+]
+
+# CSRF_TRUSTED_ORIGINS de segurança
+CSRF_TRUSTED_ORIGINS = [
+    'https://bit-a-bit-quiz.onrender.com',
+    'https://*.onrender.com'
+]
 
 
 # SUBINDO SITE PARA O SERVIDOR/ IMPORTAÇÕES DE DADOS
