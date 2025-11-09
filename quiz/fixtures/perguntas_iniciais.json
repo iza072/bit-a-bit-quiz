@@ -1,59 +1,9 @@
 ﻿[
 {
   "model": "quiz.pergunta",
-  "pk": 91,
+  "pk": 176,
   "fields": {
-    "texto": "No contexto de Cloud Computing, qual serviþo da AWS Ú mais adequado para orquestrar fluxos de trabalho complexos e stateful que envolvem m·ltiplas funþ§es AWS Lambda, serviþos HTTP e outras integraþ§es, garantindo retry, tratamento de erros e coordenaþÒo de estados?",
-    "dificuldade": "D",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 92,
-  "fields": {
-    "texto": "Em redes BGP, qual atributo Ú primariamente utilizado por um Sistema Aut¶nomo (AS) para influenciar o caminho de saÝda (outbound traffic) para um destino especÝfico, sem impactar diretamente como outros ASes enviam trßfego para ele?",
-    "dificuldade": "D",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 93,
-  "fields": {
-    "texto": "Um ataque cibernÚtico avanþado envolve um adversßrio que, ap¾s obter acesso inicial a uma mßquina via phishing, compromete as credenciais de um usußrio e as utiliza para acessar e controlar outros sistemas dentro da rede interna, elevando seus privilÚgios atÚ atingir um controlador de domÝnio. Qual tÚcnica de ataque descreve melhor essa movimentaþÒo dentro da rede?",
-    "dificuldade": "D",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 94,
-  "fields": {
-    "texto": "Para uma aplicaþÒo crÝtica hospedada no Azure, que exige o menor RTO (Recovery Time Objective) e RPO (Recovery Point Objective) possÝveis em cenßrios de desastre regional, qual estratÚgia de recuperaþÒo de desastres Ú mais adequada, tipicamente envolvendo um ambiente totalmente operacional e escalado em duas ou mais regi§es?",
-    "dificuldade": "D",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 95,
-  "fields": {
-    "texto": "Qual tecnologia Ú fundamental para mitigar ataques de sequestro de rota (route hijacking) em BGP, permitindo que os Sistemas Aut¶nomos (ASes) validem criptograficamente se o originador de um prefixo IP Ú de fato autorizado a anunciß-lo?",
-    "dificuldade": "D",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 96,
-  "fields": {
-    "texto": "Qual serviþo da AWS Ú fundamental para provisionar e gerenciar servidores virtuais (instÔncias) na nuvem, permitindo aos usußrios escalar sua capacidade computacional?",
+    "texto": "Em serviþos de Cloud Computing como a AWS, qual modelo permite que os usußrios aluguem mßquinas virtuais e gerenciem seus pr¾prios sistemas operacionais e aplicaþ§es?",
     "dificuldade": "F",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -61,9 +11,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 97,
+  "pk": 177,
   "fields": {
-    "texto": "Qual o principal objetivo da AutenticaþÒo de M·ltiplos Fatores (MFA) em seguranþa cibernÚtica?",
+    "texto": "No Microsoft Azure, como sÒo chamadas as localizaþ§es geogrßficas que hospedam um ou mais data centers, fornecendo serviþos de nuvem e garantindo redundÔncia?",
     "dificuldade": "F",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -71,9 +21,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 98,
+  "pk": 178,
   "fields": {
-    "texto": "Para que serve principalmente uma Rede Privada Virtual (VPN)?",
+    "texto": "Qual termo Ú usado para descrever software malicioso, como vÝrus, ransomware ou spyware, projetado para danificar ou obter acesso nÒo autorizado a sistemas de computador?",
     "dificuldade": "F",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -81,9 +31,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 99,
+  "pk": 179,
   "fields": {
-    "texto": "Qual modelo de serviþo de nuvem Ú caracterizado por fornecer recursos de infraestrutura virtualizados, como mßquinas virtuais, armazenamento e redes, permitindo ao usußrio gerenciar o sistema operacional e as aplicaþ§es?",
+    "texto": "O BGP (Border Gateway Protocol) Ú um protocolo de roteamento que tem como principal funþÒo conectar:",
     "dificuldade": "F",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -91,9 +41,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 100,
+  "pk": 180,
   "fields": {
-    "texto": "Qual o principal objetivo de um ataque de NegaþÒo de Serviþo (DoS)?",
+    "texto": "Qual prßtica de seguranþa exige que um usußrio forneþa duas ou mais evidÛncias (como senha e c¾digo SMS) para verificar sua identidade antes de acessar um sistema ou recurso?",
     "dificuldade": "F",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -101,9 +51,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 101,
+  "pk": 181,
   "fields": {
-    "texto": "Qual Ú o modelo de cobranþa principal para o AWS Lambda, o serviþo de computaþÒo serverless da AWS?",
+    "texto": "Em serviþos de Cloud Computing, qual Ú a principal caracterÝstica que distingue uma funþÒo Serverless (como AWS Lambda ou Azure Functions) de uma mßquina virtual IaaS tradicional?",
     "dificuldade": "M",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -111,9 +61,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 102,
+  "pk": 182,
   "fields": {
-    "texto": "Em roteamento BGP (Border Gateway Protocol), qual atributo Ú primordial para evitar loops de roteamento inter-AS (Autonomous System) e Ú incrementado a cada AS que um prefixo atravessa?",
+    "texto": "No contexto do Border Gateway Protocol (BGP), qual atributo Ú tipicamente usado para influenciar o trßfego de entrada em um Sistema Aut¶nomo (AS) a partir de um AS vizinho, quando existem m·ltiplos pontos de entrada?",
     "dificuldade": "M",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -121,9 +71,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 103,
+  "pk": 183,
   "fields": {
-    "texto": "Qual Ú o princÝpio fundamental do modelo de seguranþa Zero Trust (Confianþa Zero)?",
+    "texto": "Qual das seguintes opþ§es melhor descreve um 'Zero-Day Exploit' em Seguranþa CibernÚtica?",
     "dificuldade": "M",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -131,9 +81,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 104,
+  "pk": 184,
   "fields": {
-    "texto": "No contexto da orquestraþÒo de containers com Kubernetes, qual Ú a menor unidade implantßvel que pode ser criada, agendada e gerenciada, e que encapsula um ou mais containers?",
+    "texto": "De acordo com o Modelo de Responsabilidade Compartilhada (Shared Responsibility Model) em Cloud Computing, em um cenßrio de IaaS (Infrastructure as a Service), qual Ú a principal responsabilidade do cliente?",
     "dificuldade": "M",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -141,9 +91,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 105,
+  "pk": 185,
   "fields": {
-    "texto": "Qual ferramenta ou metodologia de seguranþa cibernÚtica Ú mais eficaz para identificar vulnerabilidades de c¾digo-fonte e falhas de design *antes* da execuþÒo de um aplicativo, geralmente integrado a um pipeline CI/CD?",
+    "texto": "Qual Ú a principal vantagem de uma rede SD-WAN (Software-Defined Wide Area Network) sobre uma WAN tradicional baseada em MPLS, especialmente no que diz respeito Ó flexibilidade e otimizaþÒo de custos?",
     "dificuldade": "M",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -151,109 +101,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 106,
+  "pk": 186,
   "fields": {
-    "texto": "Qual serviþo da AWS permite executar c¾digo sem provisionar ou gerenciar servidores, cobrando apenas pelo tempo de computaþÒo consumido?",
-    "dificuldade": "F",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 107,
-  "fields": {
-    "texto": "Em seguranþa cibernÚtica, o que Ú um ataque de 'Phishing'?",
-    "dificuldade": "F",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 108,
-  "fields": {
-    "texto": "Qual Ú o principal objetivo de um Content Delivery Network (CDN) em uma arquitetura de nuvem?",
-    "dificuldade": "F",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 109,
-  "fields": {
-    "texto": "O protocolo BGP (Border Gateway Protocol) Ú fundamental para qual aspecto das redes?",
-    "dificuldade": "F",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 110,
-  "fields": {
-    "texto": "Em Azure, qual serviþo Ú usado para hospedar e escalar aplicaþ§es web e APIs facilmente?",
-    "dificuldade": "F",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 111,
-  "fields": {
-    "texto": "Qual modelo de serviþo de nuvem oferece aos usußrios a infraestrutura bßsica de computaþÒo, incluindo servidores virtuais, armazenamento e redes, mas exige que eles gerenciem o sistema operacional e as aplicaþ§es?",
-    "dificuldade": "F",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 112,
-  "fields": {
-    "texto": "Qual tipo de ataque cibernÚtico tenta enganar os usußrios para que revelem informaþ§es confidenciais, como senhas e n·meros de cartÒo de crÚdito, geralmente por meio de e-mails ou sites falsos?",
-    "dificuldade": "F",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 113,
-  "fields": {
-    "texto": "Em Cloud Computing, qual termo descreve a capacidade de um sistema de aumentar ou diminuir automaticamente seus recursos de computaþÒo (CPU, mem¾ria, armazenamento) de acordo com a demanda, sem intervenþÒo manual?",
-    "dificuldade": "F",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 114,
-  "fields": {
-    "texto": "Em seguranþa de redes, qual Ú o principal objetivo de um firewall?",
-    "dificuldade": "F",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 115,
-  "fields": {
-    "texto": "Qual prßtica de seguranþa cibernÚtica exige que os usußrios forneþam duas ou mais formas de verificaþÒo para obter acesso a um sistema ou conta, como uma senha e um c¾digo enviado ao celular?",
-    "dificuldade": "F",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 116,
-  "fields": {
-    "texto": "No contexto da AWS, qual das seguintes afirmativas descreve corretamente a interaþÒo entre um AWS Lambda configurado com acesso a uma VPC e a conectividade com serviþos externos via Internet Gateway?",
+    "texto": "Uma organizaþÒo precisa estabelecer conectividade privada e segura entre dezenas de VPCs (Virtual Private Clouds) espalhadas por m·ltiplas contas AWS e regi§es diferentes, alÚm de permitir o acesso privado a serviþos de terceiros hospedados na AWS sem expor o trßfego Ó internet p·blica. Qual Ú a combinaþÒo de serviþos AWS mais eficiente e escalßvel para atender a esses requisitos de forma centralizada e com menor complexidade administrativa?",
     "dificuldade": "D",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -261,9 +111,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 117,
+  "pk": 187,
   "fields": {
-    "texto": "Em um cenßrio de roteamento BGP, m·ltiplos caminhos para um mesmo prefixo sÒo recebidos por um roteador. Assumindo que o AS_PATH, ORIGIN e LOCAL_PREF sÒo idÛnticos, e a sincronizaþÒo e NEXT_HOP sÒo vßlidos, qual dos seguintes atributos BGP seria o pr¾ximo critÚrio na decisÒo do melhor caminho, considerando a ordem padrÒo de seleþÒo do Cisco IOS ou similar?",
+    "texto": "Em um cenßrio onde um roteador BGP recebe m·ltiplos caminhos para o mesmo prefixo de rede de diferentes peers e todos os caminhos possuem o mesmo peso (WEIGHT), mesma Local Preference (LP) e sÒo originados localmente (ou via aggregate), qual atributo Ú avaliado *imediatamente* ap¾s a preferÛncia por caminhos originados localmente para determinar o melhor caminho, e como ele geralmente interage com o Multi-Exit Discriminator (MED)?",
     "dificuldade": "D",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -271,9 +121,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 118,
+  "pk": 188,
   "fields": {
-    "texto": "Qual das seguintes caracterÝsticas Ú a mais distintiva de uma Advanced Persistent Threat (APT) em comparaþÒo com ataques de malware genÚricos de grande escala?",
+    "texto": "Durante a fase de testes de seguranþa em um pipeline CI/CD moderno, uma equipe de desenvolvimento estß buscando identificar vulnerabilidades tanto em tempo de execuþÒo quanto no c¾digo-fonte, mas com a capacidade de correlacionar os resultados diretamente com o c¾digo sem a necessidade de instrumentaþÒo manual pesada. Qual combinaþÒo de metodologias de teste de seguranþa seria mais eficaz para atingir esse objetivo, minimizando falsos positivos e fornecendo insights acionßveis rapidamente?",
     "dificuldade": "D",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -281,9 +131,9 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 119,
+  "pk": 189,
   "fields": {
-    "texto": "No Microsoft Azure, qual a principal vantagem do Azure Private Link em comparaþÒo com os Service Endpoints para conectar de forma privada serviþos PaaS (Platform as a Service) a uma rede virtual (VNet)?",
+    "texto": "Em um sistema de banco de dados distribuÝdo, o teorema CAP afirma que Ú impossÝvel para um sistema fornecer simultaneamente ConsistÛncia (Consistency), Disponibilidade (Availability) e TolerÔncia a Particionamento (Partition Tolerance). Se um arquiteto de dados estß projetando um sistema onde a resiliÛncia a falhas de rede Ú uma prioridade mßxima e o sistema deve *continuar a responder* Ós requisiþ§es mesmo durante um evento de partiþÒo de rede, qual par de propriedades ele *priorizarß*, aceitando uma potencial limitaþÒo na terceira propriedade?",
     "dificuldade": "D",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
@@ -291,1781 +141,551 @@
 },
 {
   "model": "quiz.pergunta",
-  "pk": 120,
+  "pk": 190,
   "fields": {
-    "texto": "Em uma arquitetura de seguranþa Zero Trust, qual dos seguintes princÝpios representa o desvio mais significativo do modelo de seguranþa tradicional baseado em perÝmetro?",
+    "texto": "Uma empresa estß adotando microsserviþos e enfrenta desafios como roteamento complexo, observabilidade distribuÝda, polÝticas de seguranþa e gerenciamento de trßfego (ex: circuit breaking, retries) entre seus serviþos em um ambiente Kubernetes. Qual tecnologia Ú mais adequada para resolver esses desafios de forma transparente, desacoplando essas funcionalidades da l¾gica de neg¾cio de cada serviþo?",
     "dificuldade": "D",
     "categoria": "GeraþÒo IA",
     "tempo_limite": 30
   }
 },
 {
-  "model": "quiz.pergunta",
-  "pk": 121,
-  "fields": {
-    "texto": "No modelo de responsabilidade compartilhada da AWS, qual das seguintes ßreas Ú de responsabilidade EXCLUSIVA do cliente?",
-    "dificuldade": "M",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 122,
-  "fields": {
-    "texto": "Em roteamento BGP, qual atributo Ú frequentemente usado para influenciar o caminho de saÝda de trßfego de um Sistema Aut¶nomo (AS) para m·ltiplos provedores, priorizando um caminho interno preferencial, mas sem afetar o trßfego de entrada de outros ASs?",
-    "dificuldade": "M",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 123,
-  "fields": {
-    "texto": "Qual dos princÝpios abaixo MELHOR descreve a arquitetura de seguranþa \"Zero Trust\"?",
-    "dificuldade": "M",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 124,
-  "fields": {
-    "texto": "Para processar e analisar grandes volumes de dados de streaming em tempo real, como logs de aplicaþ§es, mÚtricas operacionais ou dados de IoT, qual serviþo da AWS seria a escolha mais adequada?",
-    "dificuldade": "M",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 125,
-  "fields": {
-    "texto": "Em um contexto de DevSecOps, qual Ú a principal razÒo para o conceito de \"Shift Left\" a seguranþa no ciclo de vida de desenvolvimento de software (SDLC)?",
-    "dificuldade": "M",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 126,
-  "fields": {
-    "texto": "Em uma arquitetura AWS complexa, uma empresa multinacional precisa interconectar centenas de VPCs espalhadas por m·ltiplas contas AWS e diversas regi§es geogrßficas. O objetivo Ú estabelecer uma conectividade de malha completa (full mesh) com roteamento centralizado, alta escalabilidade e mÝnima sobrecarga operacional. Qual serviþo AWS Ú o mais adequado para atender a esses requisitos?",
-    "dificuldade": "D",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 127,
-  "fields": {
-    "texto": "Em redes que utilizam BGP, um engenheiro de rede deseja influenciar a seleþÒo de rota de *saÝda* (outbound traffic) para um destino especÝfico, priorizando um caminho atravÚs de um vizinho BGP externo em detrimento de outros dentro do mesmo Sistema Aut¶nomo (AS). Qual atributo BGP deve ser manipulado *internamente* no AS para alcanþar esse objetivo?",
-    "dificuldade": "D",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 128,
-  "fields": {
-    "texto": "Ap¾s a detecþÒo e contenþÒo inicial de um incidente de seguranþa cibernÚtica sofisticado, como um ataque de APT (Advanced Persistent Threat) ou ransomware que comprometeu dados crÝticos, qual Ú a aþÒo forense digital de *prioridade mßxima* para preservar evidÛncias e possibilitar uma anßlise aprofundada?",
-    "dificuldade": "D",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 129,
-  "fields": {
-    "texto": "Uma grande corporaþÒo que utiliza o Azure deseja impor que todos os recursos de Armazenamento (Storage Accounts) criados em suas assinaturas sigam padr§es rÝgidos de seguranþa, como exigir criptografia em trÔnsito (HTTPS), desativar acesso p·blico para blobs e exigir replicaþÒo de dados em geografias especÝficas. Qual serviþo Azure Ú o mais eficaz para automatizar e auditar a conformidade com essas regras em escala?",
-    "dificuldade": "D",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 130,
-  "fields": {
-    "texto": "Em uma arquitetura SDN (Software-Defined Networking), qual componente fundamental atua como a 'inteligÛncia central', responsßvel por manter uma visÒo global da rede, traduzir as polÝticas de alto nÝvel definidas pelo administrador em regras de baixo nÝvel (como tabelas de fluxo OpenFlow) e distribuÝ-las para os dispositivos de rede?",
-    "dificuldade": "D",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 131,
-  "fields": {
-    "texto": "No Microsoft Azure, qual recurso Ú fundamental para garantir a segmentaþÒo l¾gica de redes e o isolamento de trßfego entre diferentes ambientes (ex: ProduþÒo e Desenvolvimento) dentro de uma ·nica assinatura?",
-    "dificuldade": "M",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 132,
-  "fields": {
-    "texto": "Em roteamento BGP, qual atributo Ú mais comumente manipulado por um Sistema Aut¶nomo (AS) para determinar o melhor caminho de saÝda para o trßfego destinado a redes externas?",
-    "dificuldade": "M",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 133,
-  "fields": {
-    "texto": "Em um ataque de ransomware, qual Ú o principal objetivo do atacante ap¾s a criptografia dos dados de uma organizaþÒo?",
-    "dificuldade": "M",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 134,
-  "fields": {
-    "texto": "Na AWS, qual recurso do Amazon RDS (Relational Database Service) Ú projetado para aumentar a disponibilidade e a durabilidade de um banco de dados, criando uma rÚplica sÝncrona em uma Zona de Disponibilidade diferente?",
-    "dificuldade": "M",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.pergunta",
-  "pk": 135,
-  "fields": {
-    "texto": "Ao implementar seguranþa em ambientes de contÛineres Docker e Kubernetes, qual das seguintes prßticas Ú considerada uma medida de seguranþa essencial para mitigar vulnerabilidades em imagens de contÛiner?",
-    "dificuldade": "M",
-    "categoria": "GeraþÒo IA",
-    "tempo_limite": 30
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 361,
-  "fields": {
-    "pergunta": 91,
-    "texto": "Amazon SQS (Simple Queue Service)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 362,
-  "fields": {
-    "pergunta": 91,
-    "texto": "AWS Step Functions",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 363,
-  "fields": {
-    "pergunta": 91,
-    "texto": "Amazon SNS (Simple Notification Service)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 364,
-  "fields": {
-    "pergunta": 91,
-    "texto": "AWS Fargate",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 365,
-  "fields": {
-    "pergunta": 92,
-    "texto": "AS_PATH Prepending",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 366,
-  "fields": {
-    "pergunta": 92,
-    "texto": "Multi-Exit Discriminator (MED)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 367,
-  "fields": {
-    "pergunta": 92,
-    "texto": "Local Preference",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 368,
-  "fields": {
-    "pergunta": 92,
-    "texto": "Origin Code",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 369,
-  "fields": {
-    "pergunta": 93,
-    "texto": "ExploraþÒo de Zero-day",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 370,
-  "fields": {
-    "pergunta": 93,
-    "texto": "Denial of Service (DoS)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 371,
-  "fields": {
-    "pergunta": 93,
-    "texto": "MovimentaþÒo Lateral (Lateral Movement)",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 372,
-  "fields": {
-    "pergunta": 93,
-    "texto": "SQL Injection",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 373,
-  "fields": {
-    "pergunta": 94,
-    "texto": "Backup e RestauraþÒo",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 374,
-  "fields": {
-    "pergunta": 94,
-    "texto": "Piloto Light (Pilot Light)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 375,
-  "fields": {
-    "pergunta": 94,
-    "texto": "Multi-site Ativo-Ativo (Hot-Hot)",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 376,
-  "fields": {
-    "pergunta": 94,
-    "texto": "Standby Quente (Warm Standby)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 377,
-  "fields": {
-    "pergunta": 95,
-    "texto": "IPsec VPN",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 378,
-  "fields": {
-    "pergunta": 95,
-    "texto": "Resource Public Key Infrastructure (RPKI)",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 379,
-  "fields": {
-    "pergunta": 95,
-    "texto": "Border Gateway Protocol Security (BGPsec)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 380,
-  "fields": {
-    "pergunta": 95,
-    "texto": "Network Access Control (NAC)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 381,
-  "fields": {
-    "pergunta": 96,
-    "texto": "Amazon S3",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 382,
-  "fields": {
-    "pergunta": 96,
-    "texto": "Amazon EC2",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 383,
-  "fields": {
-    "pergunta": 96,
-    "texto": "Amazon RDS",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 384,
-  "fields": {
-    "pergunta": 96,
-    "texto": "AWS Lambda",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 385,
-  "fields": {
-    "pergunta": 97,
-    "texto": "Aumentar a velocidade de login do usußrio.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 386,
-  "fields": {
-    "pergunta": 97,
-    "texto": "Reduzir o consumo de energia dos servidores.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 387,
-  "fields": {
-    "pergunta": 97,
-    "texto": "Adicionar uma camada extra de seguranþa ao exigir mais de uma prova de identidade para acesso.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 388,
-  "fields": {
-    "pergunta": 97,
-    "texto": "Simplificar o processo de recuperaþÒo de senha.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 389,
-  "fields": {
-    "pergunta": 98,
-    "texto": "Aumentar a velocidade da conexÒo de internet.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 390,
-  "fields": {
-    "pergunta": 98,
-    "texto": "Permitir que usußrios acessem uma rede privada de forma segura e criptografada atravÚs de uma rede p·blica (como a internet).",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 391,
-  "fields": {
-    "pergunta": 98,
-    "texto": "Distribuir endereþos IP automaticamente para dispositivos em uma rede local.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 392,
-  "fields": {
-    "pergunta": 98,
-    "texto": "Filtrar spam de e-mails em um servidor de correio eletr¶nico.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 393,
-  "fields": {
-    "pergunta": 99,
-    "texto": "Software as a Service (SaaS)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 394,
-  "fields": {
-    "pergunta": 99,
-    "texto": "Platform as a Service (PaaS)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 395,
-  "fields": {
-    "pergunta": 99,
-    "texto": "Infrastructure as a Service (IaaS)",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 396,
-  "fields": {
-    "pergunta": 99,
-    "texto": "Function as a Service (FaaS)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 397,
-  "fields": {
-    "pergunta": 100,
-    "texto": "Roubar informaþ§es confidenciais dos usußrios.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 398,
-  "fields": {
-    "pergunta": 100,
-    "texto": "Instalar software malicioso (malware) sem permissÒo.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 399,
-  "fields": {
-    "pergunta": 100,
-    "texto": "Impedir que usußrios legÝtimos acessem um serviþo, sistema ou recurso, sobrecarregando-o ou esgotando seus recursos.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 400,
-  "fields": {
-    "pergunta": 100,
-    "texto": "Criptografar arquivos de uma vÝtima para exigir um resgate.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 401,
-  "fields": {
-    "pergunta": 101,
-    "texto": "Por instÔncia provisionada e tempo de atividade da VM.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 402,
-  "fields": {
-    "pergunta": 101,
-    "texto": "Por quantidade de mem¾ria RAM provisionada por hora.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 403,
-  "fields": {
-    "pergunta": 101,
-    "texto": "Por n·mero de requisiþ§es e duraþÒo da execuþÒo da funþÒo (arredondado para o milissegundo mais pr¾ximo).",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 404,
-  "fields": {
-    "pergunta": 101,
-    "texto": "Por banda de rede utilizada na comunicaþÒo com a funþÒo.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 405,
-  "fields": {
-    "pergunta": 102,
-    "texto": "Local Preference",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 406,
-  "fields": {
-    "pergunta": 102,
-    "texto": "MED (Multi-Exit Discriminator)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 407,
-  "fields": {
-    "pergunta": 102,
-    "texto": "AS_PATH",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 408,
-  "fields": {
-    "pergunta": 102,
-    "texto": "Origin",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 409,
-  "fields": {
-    "pergunta": 103,
-    "texto": "Confiar implicitamente em qualquer entidade dentro do perÝmetro da rede corporativa.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 410,
-  "fields": {
-    "pergunta": 103,
-    "texto": "Verificar e autenticar usußrios e dispositivos apenas uma vez por sessÒo.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 411,
-  "fields": {
-    "pergunta": 103,
-    "texto": "Nunca confiar, sempre verificar (Never Trust, Always Verify), exigindo autenticaþÒo e autorizaþÒo contÝnuas.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 412,
-  "fields": {
-    "pergunta": 103,
-    "texto": "Confiar em dispositivos corporativos por padrÒo, mas verificar dispositivos pessoais.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 413,
-  "fields": {
-    "pergunta": 104,
-    "texto": "Deployment",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 414,
-  "fields": {
-    "pergunta": 104,
-    "texto": "Node",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 415,
-  "fields": {
-    "pergunta": 104,
-    "texto": "Service",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 416,
-  "fields": {
-    "pergunta": 104,
-    "texto": "Pod",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 417,
-  "fields": {
-    "pergunta": 105,
-    "texto": "WAF (Web Application Firewall)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 418,
-  "fields": {
-    "pergunta": 105,
-    "texto": "DAST (Dynamic Application Security Testing)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 419,
-  "fields": {
-    "pergunta": 105,
-    "texto": "SIEM (Security Information and Event Management)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 420,
-  "fields": {
-    "pergunta": 105,
-    "texto": "SAST (Static Application Security Testing)",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 421,
-  "fields": {
-    "pergunta": 106,
-    "texto": "Amazon EC2",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 422,
-  "fields": {
-    "pergunta": 106,
-    "texto": "AWS Lambda",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 423,
-  "fields": {
-    "pergunta": 106,
-    "texto": "Amazon RDS",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 424,
-  "fields": {
-    "pergunta": 106,
-    "texto": "Amazon S3",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 425,
-  "fields": {
-    "pergunta": 107,
-    "texto": "Um ataque que sobrecarrega um servidor com trßfego malicioso.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 426,
-  "fields": {
-    "pergunta": 107,
-    "texto": "Uma tentativa de enganar o usußrio para que revele informaþ§es sensÝveis, como senhas, geralmente por e-mail.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 427,
-  "fields": {
-    "pergunta": 107,
-    "texto": "Um software malicioso que criptografa os arquivos do usußrio e exige resgate.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 428,
-  "fields": {
-    "pergunta": 107,
-    "texto": "O acesso nÒo autorizado a um sistema atravÚs de uma falha de software.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 429,
-  "fields": {
-    "pergunta": 108,
-    "texto": "Armazenar backups de bases de dados de forma segura.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 430,
-  "fields": {
-    "pergunta": 108,
-    "texto": "Distribuir conte·do (como imagens e vÝdeos) para usußrios geograficamente mais pr¾ximos, melhorando a velocidade de entrega.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 431,
-  "fields": {
-    "pergunta": 108,
-    "texto": "Gerenciar a autenticaþÒo de usußrios em aplicaþ§es web.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 432,
-  "fields": {
-    "pergunta": 108,
-    "texto": "Monitorar o desempenho de mßquinas virtuais.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 433,
-  "fields": {
-    "pergunta": 109,
-    "texto": "A comunicaþÒo entre dispositivos em uma rede local (LAN).",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 434,
-  "fields": {
-    "pergunta": 109,
-    "texto": "O roteamento de trßfego entre sistemas aut¶nomos na internet.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 435,
-  "fields": {
-    "pergunta": 109,
-    "texto": "A atribuiþÒo dinÔmica de endereþos IP em uma rede.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 436,
-  "fields": {
-    "pergunta": 109,
-    "texto": "A seguranþa da conexÒo Wi-Fi domÚstica.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 437,
-  "fields": {
-    "pergunta": 110,
-    "texto": "Azure Virtual Machines",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 438,
-  "fields": {
-    "pergunta": 110,
-    "texto": "Azure SQL Database",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 439,
-  "fields": {
-    "pergunta": 110,
-    "texto": "Azure App Service",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 440,
-  "fields": {
-    "pergunta": 110,
-    "texto": "Azure Blob Storage",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 441,
-  "fields": {
-    "pergunta": 111,
-    "texto": "SaaS (Software as a Service)",
-    "is_correta": false
-  }
-},
-{
   "model": "quiz.resposta",
-  "pk": 442,
+  "pk": 701,
   "fields": {
-    "pergunta": 111,
+    "pergunta": 176,
     "texto": "PaaS (Platform as a Service)",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 443,
+  "pk": 702,
   "fields": {
-    "pergunta": 111,
+    "pergunta": 176,
+    "texto": "SaaS (Software as a Service)",
+    "is_correta": false
+  }
+},
+{
+  "model": "quiz.resposta",
+  "pk": 703,
+  "fields": {
+    "pergunta": 176,
     "texto": "IaaS (Infrastructure as a Service)",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 444,
+  "pk": 704,
   "fields": {
-    "pergunta": 111,
+    "pergunta": 176,
     "texto": "FaaS (Function as a Service)",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 445,
+  "pk": 705,
   "fields": {
-    "pergunta": 112,
-    "texto": "DDoS (Distributed Denial of Service)",
+    "pergunta": 177,
+    "texto": "Zonas de Disponibilidade",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 446,
+  "pk": 706,
   "fields": {
-    "pergunta": 112,
-    "texto": "Phishing",
+    "pergunta": 177,
+    "texto": "Grupos de Recursos",
+    "is_correta": false
+  }
+},
+{
+  "model": "quiz.resposta",
+  "pk": 707,
+  "fields": {
+    "pergunta": 177,
+    "texto": "Regi§es Azure",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 447,
+  "pk": 708,
   "fields": {
-    "pergunta": 112,
+    "pergunta": 177,
+    "texto": "Contas de Armazenamento",
+    "is_correta": false
+  }
+},
+{
+  "model": "quiz.resposta",
+  "pk": 709,
+  "fields": {
+    "pergunta": 178,
+    "texto": "Firewall",
+    "is_correta": false
+  }
+},
+{
+  "model": "quiz.resposta",
+  "pk": 710,
+  "fields": {
+    "pergunta": 178,
+    "texto": "Patch",
+    "is_correta": false
+  }
+},
+{
+  "model": "quiz.resposta",
+  "pk": 711,
+  "fields": {
+    "pergunta": 178,
     "texto": "Malware",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 448,
-  "fields": {
-    "pergunta": 112,
-    "texto": "Ransomware",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 449,
-  "fields": {
-    "pergunta": 113,
-    "texto": "VirtualizaþÒo",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 450,
-  "fields": {
-    "pergunta": 113,
-    "texto": "ContainerizaþÒo",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 451,
-  "fields": {
-    "pergunta": 113,
-    "texto": "Elasticidade",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 452,
+  "pk": 712,
   "fields": {
-    "pergunta": 113,
-    "texto": "ReplicaþÒo",
+    "pergunta": 178,
+    "texto": "AutenticaþÒo Multifator",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 453,
+  "pk": 713,
   "fields": {
-    "pergunta": 114,
-    "texto": "Acelerar a transmissÒo de dados",
+    "pergunta": 179,
+    "texto": "Computadores em uma rede local (LAN).",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 454,
+  "pk": 714,
   "fields": {
-    "pergunta": 114,
-    "texto": "Reduzir o consumo de energia",
+    "pergunta": 179,
+    "texto": "Dispositivos IoT em uma casa inteligente.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 455,
+  "pk": 715,
   "fields": {
-    "pergunta": 114,
-    "texto": "Controlar o trßfego de rede e bloquear acessos nÒo autorizados",
+    "pergunta": 179,
+    "texto": "Sistemas Aut¶nomos (AS) diferentes na internet.",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 456,
+  "pk": 716,
   "fields": {
-    "pergunta": 114,
-    "texto": "Armazenar backups de dados",
+    "pergunta": 179,
+    "texto": "Servidores de banco de dados em um cluster.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 457,
+  "pk": 717,
   "fields": {
-    "pergunta": 115,
-    "texto": "Criptografia de dados",
+    "pergunta": 180,
+    "texto": "Criptografia de Ponta a Ponta",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 458,
+  "pk": 718,
   "fields": {
-    "pergunta": 115,
-    "texto": "AutenticaþÒo de Fator ┌nico (SFA)",
+    "pergunta": 180,
+    "texto": "Firewall de Pr¾xima GeraþÒo",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 459,
+  "pk": 719,
   "fields": {
-    "pergunta": 115,
+    "pergunta": 180,
     "texto": "AutenticaþÒo de M·ltiplos Fatores (MFA)",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 460,
+  "pk": 720,
   "fields": {
-    "pergunta": 115,
-    "texto": "Firewall de AplicaþÒo Web (WAF)",
+    "pergunta": 180,
+    "texto": "Teste de PenetraþÒo",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 461,
+  "pk": 721,
   "fields": {
-    "pergunta": 116,
-    "texto": "Lambdas em VPC obtÛm automaticamente um endereþo IP p·blico para acesso Ó internet, sem necessidade de NAT Gateway.",
+    "pergunta": 181,
+    "texto": "Serverless requer provisionamento e manutenþÒo manual do sistema operacional subjacente.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 462,
+  "pk": 722,
   "fields": {
-    "pergunta": 116,
-    "texto": "Para um Lambda em VPC acessar a internet, Ú necessßrio que suas subnets possuam uma rota para um NAT Gateway ou um EC2 com NAT instance na mesma VPC.",
+    "pergunta": 181,
+    "texto": "Serverless executa c¾digo apenas em resposta a eventos, com escalabilidade automßtica e faturamento baseado no consumo real, sem gerenciamento de servidores.",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 463,
+  "pk": 723,
   "fields": {
-    "pergunta": 116,
-    "texto": "A configuraþÒo de VPC para um Lambda restringe seu acesso exclusivamente a recursos dentro da VPC, impedindo qualquer comunicaþÒo externa.",
+    "pergunta": 181,
+    "texto": "Serverless oferece controle total sobre a infraestrutura fÝsica e virtual, incluindo hardware e rede.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 464,
+  "pk": 724,
   "fields": {
-    "pergunta": 116,
-    "texto": "Lambdas configurados em VPC perdem a capacidade de acessar outros serviþos AWS p·blicos, a menos que sejam configurados com um VPC Endpoint para cada serviþo.",
+    "pergunta": 181,
+    "texto": "Serverless garante recursos de CPU e mem¾ria dedicados e persistentes para cada execuþÒo.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 465,
+  "pk": 725,
   "fields": {
-    "pergunta": 117,
-    "texto": "Maior peso (WEIGHT) configurado localmente.",
+    "pergunta": 182,
+    "texto": "Weight (Peso)",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 466,
+  "pk": 726,
   "fields": {
-    "pergunta": 117,
-    "texto": "Menor valor do atributo MED (Multi-Exit Discriminator).",
+    "pergunta": 182,
+    "texto": "Local Preference (Preferencia Local)",
+    "is_correta": false
+  }
+},
+{
+  "model": "quiz.resposta",
+  "pk": 727,
+  "fields": {
+    "pergunta": 182,
+    "texto": "Multi-Exit Discriminator (MED)",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 467,
+  "pk": 728,
   "fields": {
-    "pergunta": 117,
-    "texto": "Menor custo IGP para o Next-Hop.",
+    "pergunta": 182,
+    "texto": "AS Path Length (Comprimento do Caminho AS)",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 468,
+  "pk": 729,
   "fields": {
-    "pergunta": 117,
-    "texto": "Rota aprendida via eBGP em preferÛncia a iBGP.",
+    "pergunta": 183,
+    "texto": "Um ataque que explora uma vulnerabilidade de software que jß foi corrigida e um patch estß disponÝvel publicamente.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 469,
+  "pk": 730,
   "fields": {
-    "pergunta": 118,
-    "texto": "A velocidade com que se propaga atravÚs de redes comprometidas, visando o maior n·mero de vÝtimas possÝvel.",
+    "pergunta": 183,
+    "texto": "Uma tÚcnica de engenharia social que engana os usußrios para revelar suas credenciais de login.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 470,
+  "pk": 731,
   "fields": {
-    "pergunta": 118,
-    "texto": "A utilizaþÒo de exploits de dia zero para comprometer sistemas sem patches conhecidos.",
+    "pergunta": 183,
+    "texto": "Uma falha de seguranþa conhecida e documentada que Ú amplamente explorada por atacantes oportunistas.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 471,
+  "pk": 732,
   "fields": {
-    "pergunta": 118,
-    "texto": "Seu foco em objetivos de longo prazo, exfiltraþÒo contÝnua de dados ou sabotagem estratÚgica, muitas vezes permanecendo indetectada por longos perÝodos.",
+    "pergunta": 183,
+    "texto": "Uma vulnerabilidade de software recÚm-descoberta para a qual o fornecedor do software ainda nÒo lanþou um patch ou correþÒo.",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 472,
+  "pk": 733,
   "fields": {
-    "pergunta": 118,
-    "texto": "A dependÛncia exclusiva de engenharia social para obter acesso inicial, evitando qualquer uso de exploits tÚcnicos.",
+    "pergunta": 184,
+    "texto": "Seguranþa da infraestrutura fÝsica, virtualizaþÒo e redes do provedor de nuvem.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 473,
+  "pk": 734,
   "fields": {
-    "pergunta": 119,
-    "texto": "Service Endpoints fornecem isolamento de rede mais robusto e nÒo exigem alteraþ§es nas tabelas de roteamento da VNet.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 474,
-  "fields": {
-    "pergunta": 119,
-    "texto": "Private Link Ú mais econ¶mico para conectar m·ltiplos serviþos PaaS a uma ·nica VNet, pois nÒo requer o provisionamento de recursos adicionais.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 475,
-  "fields": {
-    "pergunta": 119,
-    "texto": "Private Link permite acessar o serviþo PaaS atravÚs de um endereþo IP privado dentro da VNet, tornando-o acessÝvel de redes on-premises via VPN/ExpressRoute sem expor a um endpoint p·blico.",
+    "pergunta": 184,
+    "texto": "Seguranþa e configuraþÒo do sistema operacional convidado, aplicaþ§es, dados e configuraþÒo de rede da VM.",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 476,
+  "pk": 735,
   "fields": {
-    "pergunta": 119,
-    "texto": "Ambos, Private Link e Service Endpoints, garantem que o trßfego do serviþo PaaS seja sempre roteado pela internet p·blica para maior resiliÛncia.",
+    "pergunta": 184,
+    "texto": "ManutenþÒo dos servidores fÝsicos e do hipervisor subjacente.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 477,
+  "pk": 736,
   "fields": {
-    "pergunta": 120,
-    "texto": "A implementaþÒo de firewalls de pr¾xima geraþÒo (NGFW) na borda da rede.",
+    "pergunta": 184,
+    "texto": "Gerenciamento completo de todos os aspectos da seguranþa, desde a camada fÝsica atÚ a aplicaþÒo.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 478,
+  "pk": 737,
   "fields": {
-    "pergunta": 120,
-    "texto": "A segmentaþÒo da rede em vßrias VLANs para isolar diferentes departamentos.",
+    "pergunta": 185,
+    "texto": "Exige o uso exclusivo de links MPLS para garantir alta performance e seguranþa.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 479,
+  "pk": 738,
   "fields": {
-    "pergunta": 120,
-    "texto": "A verificaþÒo contÝnua da identidade e da postura de seguranþa de cada usußrio e dispositivo, independentemente de sua localizaþÒo na rede.",
+    "pergunta": 185,
+    "texto": "Permite o gerenciamento centralizado do trßfego e a seleþÒo inteligente de rotas atravÚs de m·ltiplos tipos de transporte (MPLS, internet banda larga, 4G/5G).",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 480,
+  "pk": 739,
   "fields": {
-    "pergunta": 120,
-    "texto": "O uso de VPNs para acesso remoto seguro por parte dos funcionßrios.",
+    "pergunta": 185,
+    "texto": "Requer configuraþÒo manual de cada roteador em cada filial para estabelecer polÝticas de trßfego.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 481,
+  "pk": 740,
   "fields": {
-    "pergunta": 121,
-    "texto": "Seguranþa da infraestrutura fÝsica global da AWS.",
+    "pergunta": 185,
+    "texto": "Elimina completamente a necessidade de qualquer mecanismo de seguranþa, como VPNs, devido Ó sua arquitetura distribuÝda.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 482,
+  "pk": 741,
   "fields": {
-    "pergunta": 121,
-    "texto": "ProteþÒo dos dados do cliente (incluindo criptografia e controle de acesso).",
+    "pergunta": 186,
+    "texto": "VPC Peering e AWS Direct Connect.",
+    "is_correta": false
+  }
+},
+{
+  "model": "quiz.resposta",
+  "pk": 742,
+  "fields": {
+    "pergunta": 186,
+    "texto": "AWS Transit Gateway e AWS PrivateLink.",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 483,
+  "pk": 743,
   "fields": {
-    "pergunta": 121,
-    "texto": "Gerenciamento e manutenþÒo dos componentes de hardware da AWS.",
+    "pergunta": 186,
+    "texto": "VPN Site-to-Site e AWS Global Accelerator.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 484,
+  "pk": 744,
   "fields": {
-    "pergunta": 121,
-    "texto": "ManutenþÒo da rede global da AWS.",
+    "pergunta": 186,
+    "texto": "AWS Client VPN e Internet Gateway com NAT Gateway.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 485,
+  "pk": 745,
   "fields": {
-    "pergunta": 122,
-    "texto": "AS_PATH",
+    "pergunta": 187,
+    "texto": "Multi-Exit Discriminator (MED); o menor MED Ú preferido e sempre tem precedÛncia sobre o AS_PATH, independentemente da origem do AS.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 486,
+  "pk": 746,
   "fields": {
-    "pergunta": 122,
-    "texto": "MED (Multi-Exit Discriminator)",
+    "pergunta": 187,
+    "texto": "AS_PATH Length; o caminho com o menor n·mero de ASes no AS_PATH Ú preferido, e este critÚrio Ú avaliado antes do MED na maioria das configuraþ§es BGP.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 487,
+  "pk": 747,
   "fields": {
-    "pergunta": 122,
-    "texto": "Local Preference",
+    "pergunta": 187,
+    "texto": "Origin Type (IGP, EGP, Incomplete); IGP Ú sempre preferido, e o MED s¾ Ú considerado ap¾s o Origin Type e o AS_PATH.",
+    "is_correta": false
+  }
+},
+{
+  "model": "quiz.resposta",
+  "pk": 748,
+  "fields": {
+    "pergunta": 187,
+    "texto": "Multi-Exit Discriminator (MED); o menor MED Ú preferido, mas este critÚrio Ú avaliado *apenas ap¾s* a comparaþÒo do AS_PATH Length e *somente se* os caminhos para o prefixo forem recebidos do *mesmo Autonomous System (AS)* vizinho.",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 488,
+  "pk": 749,
   "fields": {
-    "pergunta": 122,
-    "texto": "Weight",
+    "pergunta": 188,
+    "texto": "DAST (Dynamic Application Security Testing) e VerificaþÒo de DependÛncias.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 489,
+  "pk": 750,
   "fields": {
-    "pergunta": 123,
-    "texto": "Uma vez autenticado na rede, o usußrio tem acesso irrestrito a todos os recursos internos.",
+    "pergunta": 188,
+    "texto": "SAST (Static Application Security Testing) e Testes de PenetraþÒo.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 490,
+  "pk": 751,
   "fields": {
-    "pergunta": 123,
-    "texto": "A seguranþa Ú baseada na premissa de que a rede interna Ú inerentemente segura e confißvel.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 491,
-  "fields": {
-    "pergunta": 123,
-    "texto": "Verificar explicitamente, conceder o menor privilÚgio e assumir a violaþÒo (never trust, always verify).",
+    "pergunta": 188,
+    "texto": "IAST (Interactive Application Security Testing) e SAST (Static Application Security Testing).",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 492,
+  "pk": 752,
   "fields": {
-    "pergunta": 123,
-    "texto": "Priorizar a seguranþa de perÝmetro e desconsiderar a seguranþa de acessos internos e micro-segmentaþÒo.",
+    "pergunta": 188,
+    "texto": "RASP (Runtime Application Self-Protection) e Fuzzing.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 493,
+  "pk": 753,
   "fields": {
-    "pergunta": 124,
-    "texto": "Amazon S3",
+    "pergunta": 189,
+    "texto": "ConsistÛncia e Disponibilidade.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 494,
+  "pk": 754,
   "fields": {
-    "pergunta": 124,
-    "texto": "Amazon RDS",
+    "pergunta": 189,
+    "texto": "ConsistÛncia e TolerÔncia a Particionamento.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 495,
+  "pk": 755,
   "fields": {
-    "pergunta": 124,
-    "texto": "Amazon Kinesis Data Streams",
+    "pergunta": 189,
+    "texto": "Disponibilidade e ConsistÛncia.",
+    "is_correta": false
+  }
+},
+{
+  "model": "quiz.resposta",
+  "pk": 756,
+  "fields": {
+    "pergunta": 189,
+    "texto": "Disponibilidade e TolerÔncia a Particionamento.",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 496,
+  "pk": 757,
   "fields": {
-    "pergunta": 124,
-    "texto": "Amazon EC2",
+    "pergunta": 190,
+    "texto": "API Gateway.",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 497,
+  "pk": 758,
   "fields": {
-    "pergunta": 125,
-    "texto": "Para adiar as verificaþ§es de seguranþa para as fases finais de testes e produþÒo, garantindo maior agilidade no desenvolvimento.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 498,
-  "fields": {
-    "pergunta": 125,
-    "texto": "Para integrar testes de seguranþa e avaliaþ§es desde as fases iniciais de design e codificaþÒo, identificando e corrigindo vulnerabilidades precocemente.",
+    "pergunta": 190,
+    "texto": "Service Mesh.",
     "is_correta": true
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 499,
+  "pk": 759,
   "fields": {
-    "pergunta": 125,
-    "texto": "Para delegar toda a responsabilidade de seguranþa exclusivamente Ó equipe de operaþ§es e seguranþa.",
+    "pergunta": 190,
+    "texto": "Message Broker (e.g., Kafka).",
     "is_correta": false
   }
 },
 {
   "model": "quiz.resposta",
-  "pk": 500,
+  "pk": 760,
   "fields": {
-    "pergunta": 125,
-    "texto": "Para focar exclusivamente na seguranþa da infraestrutura de rede, ignorando o c¾digo e as dependÛncias da aplicaþÒo.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 501,
-  "fields": {
-    "pergunta": 126,
-    "texto": "VPC Peering manual entre cada par de VPCs.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 502,
-  "fields": {
-    "pergunta": 126,
-    "texto": "AWS Direct Connect estabelecido entre cada VPC e o datacenter on-premises.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 503,
-  "fields": {
-    "pergunta": 126,
-    "texto": "AWS Transit Gateway com roteamento centralizado.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 504,
-  "fields": {
-    "pergunta": 126,
-    "texto": "CriaþÒo de t·neis VPN Site-to-Site entre todos os VPCs.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 505,
-  "fields": {
-    "pergunta": 127,
-    "texto": "AS_PATH.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 506,
-  "fields": {
-    "pergunta": 127,
-    "texto": "MED (Multi-Exit Discriminator).",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 507,
-  "fields": {
-    "pergunta": 127,
-    "texto": "LOCAL_PREF.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 508,
-  "fields": {
-    "pergunta": 127,
-    "texto": "ORIGIN.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 509,
-  "fields": {
-    "pergunta": 128,
-    "texto": "Restaurar os sistemas a partir do backup mais recente para minimizar o tempo de inatividade.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 510,
-  "fields": {
-    "pergunta": 128,
-    "texto": "Coletar e preservar dados volßteis (como mem¾ria RAM) e criar imagens forenses dos discos rÝgidos afetados.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 511,
-  "fields": {
-    "pergunta": 128,
-    "texto": "Desconectar todos os servidores da rede e iniciar a reconfiguraþÒo das credenciais de acesso.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 512,
-  "fields": {
-    "pergunta": 128,
-    "texto": "Notificar as autoridades e as partes interessadas, preparando um relat¾rio preliminar do incidente.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 513,
-  "fields": {
-    "pergunta": 129,
-    "texto": "Azure Resource Manager (ARM) Templates.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 514,
-  "fields": {
-    "pergunta": 129,
-    "texto": "Azure Security Center (Defender for Cloud).",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 515,
-  "fields": {
-    "pergunta": 129,
-    "texto": "Azure Policy.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 516,
-  "fields": {
-    "pergunta": 129,
-    "texto": "Azure Blueprints.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 517,
-  "fields": {
-    "pergunta": 130,
-    "texto": "Plano de Dados (Data Plane).",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 518,
-  "fields": {
-    "pergunta": 130,
-    "texto": "Agente OpenFlow.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 519,
-  "fields": {
-    "pergunta": 130,
-    "texto": "Controlador SDN (SDN Controller).",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 520,
-  "fields": {
-    "pergunta": 130,
-    "texto": "M¾dulo de OrquestraþÒo.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 521,
-  "fields": {
-    "pergunta": 131,
-    "texto": "Network Security Group (NSG)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 522,
-  "fields": {
-    "pergunta": 131,
-    "texto": "Azure Virtual Network (VNet)",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 523,
-  "fields": {
-    "pergunta": 131,
-    "texto": "Azure Firewall",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 524,
-  "fields": {
-    "pergunta": 131,
-    "texto": "Azure Application Gateway",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 525,
-  "fields": {
-    "pergunta": 132,
-    "texto": "MED (Multi-Exit Discriminator)",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 526,
-  "fields": {
-    "pergunta": 132,
-    "texto": "AS_PATH",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 527,
-  "fields": {
-    "pergunta": 132,
-    "texto": "Local Preference",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 528,
-  "fields": {
-    "pergunta": 132,
-    "texto": "Origin Code",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 529,
-  "fields": {
-    "pergunta": 133,
-    "texto": "Exfiltrar dados confidenciais para venda no mercado negro.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 530,
-  "fields": {
-    "pergunta": 133,
-    "texto": "Instalar backdoors para acesso futuro persistente.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 531,
-  "fields": {
-    "pergunta": 133,
-    "texto": "Solicitar um resgate (geralmente em criptomoedas) para fornecer a chave de descriptografia.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 532,
-  "fields": {
-    "pergunta": 133,
-    "texto": "Utilizar os servidores comprometidos como parte de uma botnet para ataques DDoS.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 533,
-  "fields": {
-    "pergunta": 134,
-    "texto": "Read Replicas",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 534,
-  "fields": {
-    "pergunta": 134,
-    "texto": "Multi-AZ Deployments",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 535,
-  "fields": {
-    "pergunta": 134,
-    "texto": "Database Snapshots",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 536,
-  "fields": {
-    "pergunta": 134,
-    "texto": "Reserved Instances",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 537,
-  "fields": {
-    "pergunta": 135,
-    "texto": "Utilizar apenas imagens base oficiais do Docker Hub, sem customizaþÒo.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 538,
-  "fields": {
-    "pergunta": 135,
-    "texto": "Escaneamento contÝnuo das imagens por vulnerabilidades conhecidas (CVEs) durante o ciclo de CI/CD.",
-    "is_correta": true
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 539,
-  "fields": {
-    "pergunta": 135,
-    "texto": "Implementar firewalls de aplicaþÒo web (WAF) exclusivamente na camada de entrada do cluster.",
-    "is_correta": false
-  }
-},
-{
-  "model": "quiz.resposta",
-  "pk": 540,
-  "fields": {
-    "pergunta": 135,
-    "texto": "Desabilitar a orquestraþÒo de contÛineres para reduzir a superfÝcie de ataque.",
+    "pergunta": 190,
+    "texto": "Orquestrador de ContÛineres (e.g., Kubernetes).",
     "is_correta": false
   }
 }
