@@ -26,15 +26,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'default_secret_key_para_dev') # para o render
 
 
+
 # CONFIGURAÇÃO PARA DOIS AMBIENTES (LOCAL E DE PRODUÇÃO) 
 
-# Verifica a variavel de ambiente IS_PRODUCTION. SE NAO FOR LOCAR= FALSE
-IS_PRODUCTION = os.environ.get('IS_PRODUCTION', 'False') == 'True' 
+# Verifica se a variável de ambiente RENDER existe (ou DATABASE_URL)
+IS_RENDER_DEPLOYMENT = os.environ.get('RENDER') == 'true' 
 
-if IS_PRODUCTION:
-    # Configurações do render
+if IS_RENDER_DEPLOYMENT:
+    # Configuraçoes do render
     DEBUG = False
-    ALLOWED_HOSTS = ['127.0.0.1', '.onrender.com'] #add o render
+    #nome completo do dominio Render
+    ALLOWED_HOSTS = ['bit-a-bit-quiz-1.onrender.com', '.onrender.com'] 
     
     
     # CHAVE GIMINI
@@ -47,8 +49,8 @@ else:
     # Configurações de IDLE (Local e Code)
     DEBUG = True
     # Permite acesso de localhost e outras portas locais
-    ALLOWED_HOSTS = ['iza72.pythonanywhere.com']
-   
+    ALLOWED_HOSTS = ['iza72.pythonanywhere.com', '127.0.0.1', 'localhost']
+    
     #chave  do Gemini, ativa em desenvolvimento para QUIZ e BOT
     GEMINI_API_KEY = 'AIzaSyAWTerGbvZiWdqLdVdN8HwgZXxsXOZ-h9A' 
     
@@ -57,6 +59,7 @@ else:
         "http://127.0.0.1:8000",
         "http://localhost:5500", 
     ]
+    
     
 # Application definition
 
